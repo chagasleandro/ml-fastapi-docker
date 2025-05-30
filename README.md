@@ -2,6 +2,24 @@
 
 API de exemplo para servir um modelo de Machine Learning com FastAPI e Docker.
 
+🔗 Repositório GitHub: [github.com/chagasleandro/ml-fastapi-docker](https://github.com/chagasleandro/ml-fastapi-docker)
+
+## 🧠 Sobre o Projeto
+
+Este projeto serve um modelo `RandomForestClassifier` treinado com a base de dados Iris via uma API REST feita com **FastAPI**. Tudo empacotado em **Docker** para facilitar o deploy.
+
+## 📦 Requisitos
+
+- Python 3.10+
+- Docker
+- Git
+
+## 🚀 Como usar
+
+### 1. Treinar o modelo
+```bash
+python train_model.py
+
 ## Como usar
 
 1. Treine o modelo:
@@ -27,7 +45,6 @@ API de exemplo para servir um modelo de Machine Learning com FastAPI e Docker.
    ```
 
 ## Tecnologias
-
 - FastAPI
 - Scikit-learn
 - Docker
